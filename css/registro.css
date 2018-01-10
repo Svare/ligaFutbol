@@ -1,0 +1,148 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    /* Para que el ancho incluya tambien padding y border*/
+    box-sizing: border-box;
+    
+}
+
+body {
+	/*background-image: url(grass.png);*/
+	background: #F2F2F2;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+h1 {
+	background: #12E288;
+	box-shadow: 0 0 3px grey;
+	margin: 80px auto;
+	padding: 30px 0;
+	font-size: 80px;
+	text-align: center;
+	color: #B4F7D0;
+}
+
+h2 {
+	margin: 20px auto;
+	width: 960px;
+	padding: 20px 0;
+	border-radius: 10px; 
+	background: #DE6D10;
+	box-shadow: 0 0 3px grey;
+	font-size: 40px;
+	text-align: center;
+	color: #F7D6B4;
+}
+
+#formulario {
+	max-width: 960px;
+	margin: auto;
+}
+
+form {
+	width: 100%;
+	margin: 40px 0;
+	padding: 30px;
+	background: #F2F2F2;
+	overflow: hidden;
+	box-shadow: 0 0 3px grey;
+	border-top: 5px solid #12E288;
+	border-bottom: 5px solid #DE6D10;
+}
+
+form input[type="text"],
+form input[type="password"] {
+	border: 1px solid #12E288;
+	border-radius: 2px; 
+	padding: 10px;
+	width: 100%;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 1em;
+	color: #141938;
+}
+
+form input[type="text"]:focus,
+form input[type="password"]:focus {
+	border: 2px solid #1AF216;
+}
+
+.btnOpcion {
+	width: 600px;
+	padding: 40px;
+	display: block;
+	text-decoration: none;
+	border-radius: 20px;
+	font-size: 50px;
+	font-weight: 800;
+	text-align: center;
+	margin: 50px auto;
+	color: #F2F2F2;
+}
+
+.btn1 {
+	background: #B7B41F;
+}
+
+.btn1:hover {
+	background: #E6E318;
+}
+
+.btn2 {
+	background: #29ADC1;
+}
+
+.btn2:hover {
+	background: #16C8E3;
+}
+
+.btn3 {
+	background: #826D3A;
+}
+
+.btn3:hover {
+	background: #A5822B;
+}
+
+.btn4 {
+	background: #1B8C3B;
+}
+
+.btn4:hover {
+	background: #27B950;
+}
+
+.btn5 {
+	background: #BE2727;
+}
+
+.btn5:hover {
+	background: #DE1B1B;
+}
+
+#botonEnviar {
+	width: 100px;
+	margin-top: 10px;
+	padding: 15px;
+	background: #1668C4;
+	color: #FFFFFF;
+	font-size: 1em;
+	border-radius: 2px;
+	border: none;
+	float: right;
+	cursor: pointer;
+}
+
+#botonEnviar:hover {
+	background: #0068F6;
+}
+
+.texto-registrate {
+	text-align: center;
+	font-size: 2em;
+	display: block;
+}
