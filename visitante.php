@@ -67,34 +67,35 @@
 					}
 
 				?>
-
-					<table border="2">
-						<thead>
-							<tr>
-								<td>Jornada</td>
-								<td>Fecha</td>
-								<td>Lugar</td>
-								<td>Local</td>
-								<td>Visitante</td>
-							</tr>
-						</thead>
-
-						<tbody>
-							<?php foreach ($nombres as $fila): ?>
+					<div class="contenedor">
+						<table>
+							<thead class="thead_rol">
 								<tr>
-									<td><?php echo $fila[0]; ?></td>
-									<td><?php echo $fila[1]; ?></td>
-									<td><?php echo $fila[2]; ?></td>
-									<td><?php echo $fila[3]; ?></td>
-									<td><?php echo $fila[4]; ?></td>
+									<th>JORNADA</th>
+									<th>FECHA</th>
+									<th>LUGAR</th>
+									<th>LOCAL</th>
+									<th>VISIITANTE</th>
 								</tr>
-							<?php endforeach ?>
-						</tbody>
+							</thead>
 
-						<tfoot>
-						</tfoot>
-					</table>
+							<tbody>
+								<?php foreach ($nombres as $fila): ?>
+									<tr>
+										<td class="td_rol"><?php echo strtoupper($fila[0]); ?></td>
+										<td class="td_rol"><?php echo strtoupper($fila[1]); ?></td>
+										<td class="td_rol"><?php echo strtoupper($fila[2]); ?></td>
+										<td class="td_rol"><?php echo strtoupper($fila[3]); ?></td>
+										<td class="td_rol"><?php echo strtoupper($fila[4]); ?></td>
+									</tr>
+								<?php endforeach ?>
+							</tbody>
 
+							<tfoot>
+							</tfoot>
+						</table>						
+					</div>
+					
 				<?php
 
 			}
@@ -128,27 +129,29 @@
 				$equipos = $equipo->fetchAll();
 
 			?>
-
-					<table border="2">
-						<thead>
-							<tr>
-								<td>Equipo</td>
-								<td>Fuerza</td>
-							</tr>
-						</thead>
-
-						<tbody>
-							<?php foreach ($equipos as $fila): ?>
+					<div class="contenedor">
+						<table>
+							<thead class="thead_equipos">
 								<tr>
-									<td><?php echo $fila['equipo_nombre']; ?></td>
-									<td><?php echo $fila['fuerza_nombre']; ?></td>
+									<th>EQUIPO</th>
+									<th>FUERZA</th>
 								</tr>
-							<?php endforeach ?>
-						</tbody>
+							</thead>
 
-						<tfoot>
-						</tfoot>
-					</table>
+							<tbody>
+								<?php foreach ($equipos as $fila): ?>
+									<tr>
+										<td class="td_equipos"><?php echo strtoupper($fila['equipo_nombre']); ?></td>
+										<td class="td_equipos"><?php echo strtoupper($fila['fuerza_nombre']); ?></td>
+									</tr>
+								<?php endforeach ?>
+							</tbody>
+
+							<tfoot>
+							</tfoot>
+						</table>
+					</div>
+					
 
 				<?php
 		}

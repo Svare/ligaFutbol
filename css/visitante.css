@@ -24,18 +24,51 @@ body {
 }
 
 .part_rol {
-	background: #226D8A;
-}
-
-.equipos {
 	background: #228A53;
 }
 
-table {
+.equipos {
+	background: #DE6D10;
+}
+
+.contenedor {
+	width: 960px;
 	margin: 50px auto;
 }
 
-td {
+table {
+	width: 100%;
+	margin: 50px auto;
+	border-collapse: collapse;
+}
+
+td, th {
 	padding: 15px;;
 	text-align: center;
+}
+
+tr:nth-child(even){
+	background: #DDDDDD;
+}
+
+tr:hover .td_rol{
+	background: #6CCAAE;
+}
+
+tr:hover .td_equipos{
+	background: #DA8F52;
+}
+
+.thead_rol {
+	background: #228A53;
+	color: #F2F2F2;
+	font-weight: 900;
+	border-bottom: solid 5px #155A35;
+}
+
+.thead_equipos {
+	background: #DE6D10;
+	color: #F2F2F2;
+	font-weight: 900;
+	border-bottom: solid 5px #C35C08;
 }
