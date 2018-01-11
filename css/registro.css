@@ -143,6 +143,40 @@ form input[type="password"]:focus {
 
 .texto-registrate {
 	text-align: center;
+	margin-bottom: 30px;
+	font-size: 3em;
+	display: block;
+	font-weight: bolder;
+	color: #DE6D10;	
+}
+
+.btnIndex {
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+	box-shadow: 0 0 10px grey;
+	border-radius: 20px;
+	font-weight: bolder;
+	border: none;
+	color: #F2F2F2;
 	font-size: 2em;
 	display: block;
+	margin: 30px auto;
 }
+
+.btnLog {
+	background: #94225D;
+}
+
+.btnGuest {
+	background: #4A2294;
+}
+
+.btnLog:hover {
+	box-shadow: 0 0 25px #E10978;
+}
+
+.btnGuest:hover {
+	box-shadow: 0 0 25px #5804F4;
+}
+

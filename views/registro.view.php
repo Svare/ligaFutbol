@@ -32,10 +32,14 @@
 				<?php endif; ?>
 
 			</form>
+			
 			<p class="texto-registrate">
 				¿Ya tienes cuenta?<br/>
-				<a href="login.php">Iniciar Sesión</a>
 			</p>
+			
+			<a href="login.php" class="btnIndex btnLog">Iniciar Sesión</a>
+			<a href="visitante.php" class="btnIndex btnGuest">Entrar como Invitado</a>
+			
 		</div>
 	</div>
 

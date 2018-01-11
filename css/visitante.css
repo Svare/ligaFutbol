@@ -1,0 +1,41 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    /* Para que el ancho incluya tambien padding y border*/
+    box-sizing: border-box;
+    
+}
+
+body {
+	/*background-image: url(grass.png);*/
+	background: #F2F2F2;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.encabezado {
+	box-shadow: 0 0 3px grey;
+	margin: auto;
+	padding: 30px 0;
+	font-size: 60px;
+	text-align: center;
+	color: #F2F2F2;
+}
+
+.part_rol {
+	background: #226D8A;
+}
+
+.equipos {
+	background: #228A53;
+}
+
+table {
+	margin: 50px auto;
+}
+
+td {
+	padding: 15px;;
+	text-align: center;
+}

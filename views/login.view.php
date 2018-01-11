@@ -33,8 +33,11 @@
 			</form>
 			<p class="texto-registrate">
 				¿Aun no tienes cuenta?<br/>
-				<a href="registro.php">Registrate</a>
 			</p>
+
+			<a href="registro.php" class="btnIndex btnLog">Registrate</a>
+			<a href="visitante.php" class="btnIndex btnGuest">Entrar como Invitado</a>
+
 		</div>
 	</div>
 
