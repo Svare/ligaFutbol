@@ -72,3 +72,24 @@ tr:hover .td_equipos{
 	font-weight: 900;
 	border-bottom: solid 5px #C35C08;
 }
+
+.btnOpcion {
+	width: 300px;
+	padding: 20px;
+	display: block;
+	text-decoration: none;
+	border-radius: 80px;
+	font-size: 30px;
+	font-weight: 800;
+	text-align: center;
+	margin: 50px auto;
+	color: #F2F2F2;
+}
+
+.btn3 {
+	background: #1E6E99;
+}
+
+.btn3:hover {
+	background: #399ACF;
+}

@@ -96,6 +96,7 @@
 						</table>						
 					</div>
 					
+					<a href="generarRolPDF.php" class="btnOpcion btn3">Generar PDF</a> 					
 				<?php
 
 			}
